@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HeyStop",
-    "slug": "HeyStop",
+    "name": "hey-stop",
+    "slug": "hey-Stop",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,22 +9,29 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#666666"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hankevin0618.heyStop"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#666666"
+      },
+      "package": "com.hankevin0618.heyStop"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "97773829-8875-48c9-a532-74f360c7b17a"
+      }
     }
   }
 }
